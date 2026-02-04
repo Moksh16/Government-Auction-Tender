@@ -10,6 +10,9 @@ class UserSigin(Base):
     Role: str
     DateOfBirth: date
 
+class UserLogin(Base):
+    Email_id: EmailStr
+    password: str
 class Post_new_item(Base):
     title:str
     description: str
